@@ -13,7 +13,7 @@ import mongoose from "mongoose";
 
 const CONNECTION_STRING = process.env.MONGO_CONNECTION_STRING || "mongodb://127.0.0.1:27017/kambaz"
 mongoose.connect(CONNECTION_STRING)
-    .then(() => console.log("MongoDB connected!"))
+    .then(() => console.log("MongoDB connected!", CONNECTION_STRING))
     .catch(err => console.error("MongoDB connection error:", err));
 const app = express()
 app.use(cors({
