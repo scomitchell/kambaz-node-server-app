@@ -109,7 +109,6 @@ export default function UserRoutes(app) {
         res.json(newCourse);
     };
 
-
     app.post("/api/users", createUser);
     app.get("/api/users", findAllUsers);
     app.get("/api/users/:userId", findUserById);
