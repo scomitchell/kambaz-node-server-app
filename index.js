@@ -16,6 +16,7 @@ mongoose.connect(CONNECTION_STRING)
     .then(() => console.log("MongoDB connected!", CONNECTION_STRING))
     .catch(err => console.error("MongoDB connection error:", err));
 const app = express()
+
 app.use(cors({
     credentials: true,
     origin: process.env.NETLIFY_URL || "http://localhost:5173",
