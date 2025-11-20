@@ -1,9 +1,9 @@
-# NUCourse (Backend)
+# Kambaz (Backend)
 
 
 
 
-This is the backend API for **NUCourse**, a platform where Northeastern Universtiy students can rate and review their courses.
+This is the backend API for **Kambaz**, a Canvas-style dashboard to manage courses, assignments, and instructor tools, inspired by Canvas LMS but implemented from scratch using Node.js, React, and MongoDB.
 
 
 
@@ -15,20 +15,13 @@ This is the backend API for **NUCourse**, a platform where Northeastern Universt
 - Basic login system
 
 
-- CRUD operations for courses and reviews
+- CRUD operations for courses, assignments, modules, enrollments, and users.
 
 
 - User profile editing
 
 
-- Role support for Students, Faculty, and Admins
-
-
-- Faculty and Admins can add or remove courses
-
-
-- Admins can manage users
-
+- Role-aware navigation and resources for students, TAs, faculty, and admins.
 
 
 
@@ -43,6 +36,3 @@ This is the backend API for **NUCourse**, a platform where Northeastern Universt
 
 
 - **Database**: MongoDB
-
-
-- **CORS**: Configured to allow frontend access
